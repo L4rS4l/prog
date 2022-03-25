@@ -15,7 +15,7 @@ int main (){
         cout << "Enter the range of nos.: ";
         cin >> range;
         for (int number, count = 1; count <= range; count++){
-            cout << "Enter the no. that you want to know if its EVEN or ODD. " << "[" << count << "]: ";
+            cout << "Enter the no. that you want to know if it's EVEN or ODD. " << "[" << count << "]: ";
             cin >> number;
             if (number % 2 == 0){
             cout << number << " - EVEN no." << endl;
